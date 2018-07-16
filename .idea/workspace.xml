@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08f0220-e574-48a1-9b38-5cb91f9cbb16" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SwordOffer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/ContinuousSequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/NthToLast$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/NthToLast.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/PutOddAheadEven.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/ReplaceBlank.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/ReversePairs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/TwoSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/UglyNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ContinuousSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/DetectCycleEntryNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/NthToLast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/PutOddAheadEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReplaceBlank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/UglyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListDG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListUDG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixDG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixUDG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/NFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Backpack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/ChangeMoneyCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/JumpStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/LCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/MinEditCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/MinimumPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/ContinuousSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/ContinuousSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/ReversePairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwordOffer/com/martinzqm/multiPointersSolution/ReversePairs.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,92 +30,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReplaceBlank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReplaceBlank.java">
+      <file leaf-file-name="LCS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/LCS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="420">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PutOddAheadEven.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/PutOddAheadEven.java">
+      <file leaf-file-name="Backpack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Backpack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="398">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NthToLast.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/NthToLast.java">
+      <file leaf-file-name="MinEditCost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/MinEditCost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="222">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/TwoSum.java">
+      <file leaf-file-name="DFS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/DFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReversePairs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReversePairs.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="286">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/Test.java">
+      <file leaf-file-name="MatrixUDG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixUDG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="601">
+              <caret line="248" column="28" selection-start-line="248" selection-start-column="28" selection-end-line="248" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContinuousSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ContinuousSequence.java">
+      <file leaf-file-name="ListUDG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListUDG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="425">
+              <caret line="272" column="28" lean-forward="true" selection-start-line="272" selection-start-column="28" selection-end-line="272" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DetectCycleEntryNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/DetectCycleEntryNode.java">
+      <file leaf-file-name="MatrixDG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixDG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="667">
+              <caret line="250" column="31" selection-start-line="250" selection-start-column="31" selection-end-line="250" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UglyNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/UglyNumber.java">
+      <file leaf-file-name="ListDG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListDG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            <state relative-caret-position="154">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="NFS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/NFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="154">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -140,6 +140,16 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>A.length()</find>
+      <find>B.length()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>lengthA</replace>
+      <replace>lengthB</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,6 +167,19 @@
         <option value="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/DetectCycleEntryNode.java" />
         <option value="$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReversePairs.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/ChangeMoneyCount.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Step.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/JumpStep.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/MinimumPath.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/LIS.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/LCS.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Backpack.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/MinEditCost.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixUDG.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListUDG.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixDG.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListDG.java" />
+        <option value="$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Test.java" />
       </list>
     </option>
   </component>
@@ -184,6 +207,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,11 +215,44 @@
               <item name="SwordOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SwordOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="martinzqm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="martinzqm" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS_BFS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SwordOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="martinzqm" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProcess" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -215,43 +272,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContinuousSequence">
-    <configuration name="ContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.martinzqm.multiPointersSolution.ContinuousSequence" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="JumpStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.martinzqm.DynamicProcess.JumpStep" />
       <module name="SwordOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.martinzqm.multiPointersSolution.*" />
+          <option name="PATTERN" value="com.martinzqm.DynamicProcess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SwordOffer" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.martinzqm.multiPointersSolution.Test" />
+    <configuration name="ListUDG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.martinzqm.DFS_BFS.ListUDG" />
       <module name="SwordOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.martinzqm.multiPointersSolution.*" />
+          <option name="PATTERN" value="com.martinzqm.DFS_BFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinEditCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.martinzqm.DynamicProcess.MinEditCost" />
+      <module name="SwordOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.martinzqm.DynamicProcess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MinimumPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.martinzqm.DynamicProcess.MinimumPath" />
+      <module name="SwordOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.martinzqm.DynamicProcess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.martinzqm.DynamicProcess.Test" />
+      <module name="SwordOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.martinzqm.DynamicProcess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.ContinuousSequence" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.JumpStep" />
+      <item itemvalue="Application.MinimumPath" />
+      <item itemvalue="Application.MinEditCost" />
+      <item itemvalue="Application.ListUDG" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContinuousSequence" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.ListUDG" />
+        <item itemvalue="Application.MinEditCost" />
+        <item itemvalue="Application.MinimumPath" />
+        <item itemvalue="Application.JumpStep" />
       </list>
     </recent_temporary>
   </component>
@@ -271,12 +356,16 @@
       <workItem from="1528332984579" duration="4972000" />
       <workItem from="1528596618130" duration="4107000" />
       <workItem from="1528680763861" duration="4596000" />
-      <workItem from="1528804249758" duration="457000" />
+      <workItem from="1528804249758" duration="2336000" />
+      <workItem from="1529368504924" duration="633000" />
+      <workItem from="1530339122274" duration="6490000" />
+      <workItem from="1530491741523" duration="3782000" />
+      <workItem from="1530942190933" duration="18269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21280000" />
+    <option name="totallyTimeSpent" value="52333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -284,28 +373,29 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5234541" side_tool="true" weight="0.20268758" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32997763" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47654584" weight="0.2956327" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="JProfiler" order="8" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -318,63 +408,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReplaceBlank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/PutOddAheadEven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/NthToLast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReversePairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ContinuousSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/DetectCycleEntryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/UglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
@@ -544,52 +583,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ContinuousSequence.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/DetectCycleEntryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/NthToLast.java">
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/UglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/PutOddAheadEven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReplaceBlank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReversePairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="352">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -600,17 +614,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/UglyNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="264">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ReplaceBlank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/PutOddAheadEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/DetectCycleEntryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/ContinuousSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Step.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/multiPointersSolution/NthToLast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/ChangeMoneyCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/JumpStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/MinimumPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/LIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/LCS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Backpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/MinEditCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/NFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixUDG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="248" column="28" selection-start-line="248" selection-start-column="28" selection-end-line="248" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/MatrixDG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="250" column="31" selection-start-line="250" selection-start-column="31" selection-end-line="250" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListDG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DFS_BFS/ListUDG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="272" column="28" lean-forward="true" selection-start-line="272" selection-start-column="28" selection-end-line="272" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/martinzqm/DynamicProcess/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
