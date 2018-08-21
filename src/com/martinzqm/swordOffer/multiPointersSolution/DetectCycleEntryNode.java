@@ -1,4 +1,6 @@
-package com.martinzqm.multiPointersSolution;
+package com.martinzqm.swordOffer.multiPointersSolution;
+
+import com.martinzqm.entity.ListNode;
 
 /**
  * @author zhangmiao3
@@ -8,15 +10,6 @@ package com.martinzqm.multiPointersSolution;
  * @date 11:25 2018/6/10
  */
 public class DetectCycleEntryNode {
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
 
     public ListNode detectCycle(ListNode head) {
         // write your code here

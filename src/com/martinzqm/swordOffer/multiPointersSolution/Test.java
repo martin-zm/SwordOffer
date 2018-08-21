@@ -1,4 +1,4 @@
-package com.martinzqm.multiPointersSolution;
+package com.martinzqm.swordOffer.multiPointersSolution;
 
 /**
  * @author zhangmiao3

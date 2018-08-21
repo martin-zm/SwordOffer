@@ -1,4 +1,6 @@
-package com.martinzqm.multiPointersSolution;
+package com.martinzqm.swordOffer.multiPointersSolution;
+
+import com.martinzqm.entity.ListNode;
 
 /**
  * @author zhangmiao3
@@ -9,15 +11,6 @@ package com.martinzqm.multiPointersSolution;
  * @date 8:55 2018/6/6
  */
 public class NthToLast {
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-            this.next = null;
-        }
-    }
     /*
     //普通解法，遍历两次，计算出要走的步长
     public ListNode nthToLast(ListNode head, int n) {
