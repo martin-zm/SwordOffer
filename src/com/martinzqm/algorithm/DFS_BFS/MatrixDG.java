@@ -1,4 +1,4 @@
-package com.martinzqm.DFS_BFS;
+package com.martinzqm.algorithm.DFS_BFS;
 
 import java.io.IOException;
 import java.util.Scanner;

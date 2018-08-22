@@ -1,4 +1,4 @@
-package com.martinzqm.DynamicProcess;
+package com.martinzqm.algorithm.DynamicProcess;
 
 /**
  * @author zhangmiao3
