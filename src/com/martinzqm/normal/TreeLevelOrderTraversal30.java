@@ -4,7 +4,6 @@ import com.martinzqm.entity.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * @Author miao
