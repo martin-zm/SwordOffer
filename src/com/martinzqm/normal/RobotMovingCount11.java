@@ -17,6 +17,7 @@ public class RobotMovingCount11 {
     public int movingCountCore(int threshold, int rows, int cols, int row, int col, boolean[] isVisited) {
         int count = 0;
         if (check(threshold, rows, cols, row, col, isVisited)) {
+            isVisited[row * cols + col] = true;
             count = 1 + movingCountCore(threshold, rows, cols, row - 1, col, isVisited)
                     + movingCountCore(threshold, rows, cols, row + 1, col, isVisited)
                     + movingCountCore(threshold, rows, cols, row, col - 1, isVisited)
@@ -28,7 +29,8 @@ public class RobotMovingCount11 {
     // 检查某一方格是否满足要求
     public boolean check(int threshold, int rows, int cols, int row, int col, boolean[] isVisited) {
         if (row >= 0 && row < rows && col >= 0 && col < cols
-                && getDigitSum(row) + getDigitSum(col) <= threshold) {
+                && getDigitSum(row) + getDigitSum(col) <= threshold
+                && isVisited[row * cols + col] == false) {
             return true;
         } else {
             return false;
