@@ -45,7 +45,6 @@ public class RouteInMatrix10 {
                 --pathLength;
                 isVisited[row * cols + col] = false;
             }
-
         }
         return hasPath;
     }

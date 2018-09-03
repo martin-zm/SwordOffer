@@ -37,4 +37,9 @@ public class ReConstructBinaryTree5 {
         root.right = helpConstruct(pre, preStart + index - inStart + 1, preEnd, in, index + 1, inEnd, map);
         return root;
     }
+
+    public static void main(String[] args) {
+        String st = "ajsdklg";
+        StringBuilder sb = new StringBuilder(st);
+    }
 }
