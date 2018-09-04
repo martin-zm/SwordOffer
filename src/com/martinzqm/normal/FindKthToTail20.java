@@ -11,6 +11,7 @@ public class FindKthToTail20 {
     public ListNode FindKthToTail(ListNode head, int k) {
         ListNode phead1 = head;
         ListNode phead2 = head;
+        // 计数
         ListNode pcount = head;
         if (head == null) {
             return null;

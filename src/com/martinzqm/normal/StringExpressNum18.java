@@ -17,10 +17,11 @@ public class StringExpressNum18 {
         }
         // 判断是否有整数
         boolean flag = scanInteger(str);
-        // +.123也算符合要求
+        // +.123也算符合要求，23.e不符合要求
         if (index < str.length && str[index] == '.') {
             //不能写反了
-            flag = scanUnsignedInteger(str) || flag;
+            flag = scanUnsignedInteger(str);
+//            flag = scanUnsignedInteger(str) || flag;
         }
         //-12.88e-334
         if (index < str.length && str[index] == 'E' || str[index] == 'e') {
@@ -31,7 +32,7 @@ public class StringExpressNum18 {
     }
 
     public boolean scanInteger(char[] str) {
-        if (index < str.length && str[index] == '+' || str[index] < '-') {
+        if (index < str.length && str[index] == '+' || str[index] == '-') {
             ++index;
         }
         return scanUnsignedInteger(str);

@@ -25,15 +25,22 @@ public class RegularExpression17 {
             return false;
         }
         if (patternIndex + 1 < pattern.length && pattern[patternIndex + 1] == '*') {
+            // *前一个字符匹配了
             if (startIndex != str.length && str[startIndex] == pattern[patternIndex]
             || startIndex != str.length && pattern[patternIndex] == '.') {
+                // eg：abcd    ab*d
+                // b*   0次
+                // b*   1次  b
+                // b*   2次  bb*
                 return matchCore(str, startIndex, pattern, patternIndex + 2)
                         || matchCore(str, startIndex + 1, pattern, patternIndex + 2)
                         || matchCore(str, startIndex + 1, pattern, patternIndex);
+                // *前一个字符没有匹配
             } else {
                 matchCore(str, startIndex, pattern, patternIndex + 2);
             }
         }
+        // 没有碰到*
         if (startIndex != str.length && str[startIndex] == pattern[patternIndex]
                 || startIndex != str.length && pattern[patternIndex] == '.') {
             return matchCore(str, startIndex + 1, pattern, patternIndex + 1);

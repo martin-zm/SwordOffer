@@ -4,6 +4,7 @@ package com.martinzqm.normal;
  * @Author miao
  * @Description: 给定一根长度为n的绳子，请把绳子剪成m段（m、n都是整数，n>1并且m>1），
  * 每段绳子的长度记为k[0],k[1],…,k[m]。请问k[0]* k[1] * … *k[m]可能的最大乘积是多少？
+ * 定义函数f(n)表示为把长度为n的绳子剪成若干段后各段长度乘积的最大值。
  * @Date 2018/8/23 6:35
  */
 public class CutRope12 {
