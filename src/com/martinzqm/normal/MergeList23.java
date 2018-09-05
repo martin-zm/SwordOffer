@@ -9,7 +9,7 @@ import com.martinzqm.entity.ListNode;
  */
 public class MergeList23 {
     // 递归解法
-    public ListNode mergeListNoRecursion(ListNode list1, ListNode list2) {
+    public ListNode mergeListRecursion(ListNode list1, ListNode list2) {
         if (list1 == null) {
             return list2;
         }
@@ -28,7 +28,7 @@ public class MergeList23 {
     }
 
     // 非递归解法
-    public ListNode mergeListRecursion(ListNode list1,ListNode list2) {
+    public ListNode mergeListNoRecursion(ListNode list1,ListNode list2) {
         if (list1 == null) {
             return list2;
         } else if (list2 == null) {

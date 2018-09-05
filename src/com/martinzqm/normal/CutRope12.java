@@ -31,8 +31,8 @@ public class CutRope12 {
                 if (max < num) {
                     max = num;
                 }
-                f[i] = num;
             }
+            f[i] = max;
         }
         return f[length];
     }

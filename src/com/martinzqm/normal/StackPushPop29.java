@@ -18,7 +18,7 @@ public class StackPushPop29 {
         int popIndex = 0;
         for (int i = 0; i < pushA.length; ++i) {
             stack.push(pushA[i]);
-            while (!stack.isEmpty() && stack.peek() != popA[popIndex]) {
+            while (!stack.isEmpty() && stack.peek() == popA[popIndex]) {
                 stack.pop();
                 ++popIndex;
             }
