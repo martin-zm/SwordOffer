@@ -27,7 +27,7 @@ public class GetLeastNumbers38 {
         for (int i = 0; i < input.length; ++i) {
             if (maxHeap.size() < k) {
                 maxHeap.offer(input[i]);
-            } else {
+            } else if (input[i] < maxHeap.peek()){
                 maxHeap.poll();
                 maxHeap.offer(input[i]);
             }

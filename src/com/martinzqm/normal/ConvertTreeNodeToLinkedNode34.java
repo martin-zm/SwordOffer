@@ -9,7 +9,9 @@ import com.martinzqm.entity.TreeNode;
  * @Date 2018/8/27 14:33
  */
 public class ConvertTreeNodeToLinkedNode34 {
+    // 头指针
     TreeNode leftHead = null;
+    // 尾指针
     TreeNode rightHead = null;
     public TreeNode convert(TreeNode pRootOfTree) {
         if (pRootOfTree == null) {

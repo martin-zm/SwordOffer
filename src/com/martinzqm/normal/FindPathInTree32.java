@@ -35,6 +35,7 @@ public class FindPathInTree32 {
         if (root.right != null) {
             findPath(root.right, curSum, list, target);
         }
+        // 都会有的一个回退操作
         list.remove(list.size() - 1);
         return result;
     }

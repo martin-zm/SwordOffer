@@ -51,7 +51,6 @@ public class DataStreamMedian39 {
         if (count == 0) {
             throw new RuntimeException("no available number!");
         }
-        double result;
         if ((count & 1) == 0) {
             return (maxHeap.peek() + minHeap.peek()) / 2.0;
         } else {

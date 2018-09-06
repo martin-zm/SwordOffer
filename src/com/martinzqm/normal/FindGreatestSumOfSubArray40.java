@@ -21,7 +21,7 @@ public class FindGreatestSumOfSubArray40 {
             } else {
                 cursum += array[i];
             }
-            if (array[i] > max) {
+            if (cursum > max) {
                 max = array[i];
             }
         }
