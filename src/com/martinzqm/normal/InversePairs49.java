@@ -34,7 +34,7 @@ public class InversePairs49 {
         int count = 0;
         while (i >= start && j >= start + halfLength + 1) {
             if (A[i] > A[j]) {
-                copy[indexCopy--] = A[i-1];
+                copy[indexCopy--] = A[i--];
                 count += j - (start + halfLength);
                 if (count > 1000000007) {
                     count %= 1000000007;

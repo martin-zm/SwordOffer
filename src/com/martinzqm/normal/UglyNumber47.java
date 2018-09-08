@@ -45,6 +45,6 @@ public class UglyNumber47 {
     }
 
     public static void main(String[] args) {
-        System.out.println(getNUglyNumber(20));
+        System.out.println(getNUglyNumber(86));
     }
 }

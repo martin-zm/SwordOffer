@@ -33,7 +33,7 @@ public class LongestSingleSubstring46 {
         int position, distance;
         for (int j = 0; j < str.length(); ++j) {
             position = str.charAt(j) - 'a';
-            if (position < 0) {
+            if (positions[position] < 0) {
                 ++curLength;
             } else {
                 distance = j - positions[position];

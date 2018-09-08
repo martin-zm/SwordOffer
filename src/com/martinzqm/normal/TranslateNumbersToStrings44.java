@@ -30,6 +30,8 @@ public class TranslateNumbersToStrings44 {
             } else {
                 g = 0;
             }
+            // f(r-2) = f(r-1)+g(r-2,r-1)*f(r)
+            // f(r)表示以r为开始（r最小取0）到最右端所组成的数字能够翻译成字符串的种数。
             temp = f2;
             f2 = f2 + g * f1;
             f1 = temp;

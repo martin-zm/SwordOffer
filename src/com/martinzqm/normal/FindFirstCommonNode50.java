@@ -18,7 +18,7 @@ public class FindFirstCommonNode50 {
             longHead = pHead2;
             shortHead = pHead1;
         }
-        for (int i = 1; i < diffLength; ++i) {
+        for (int i = 1; i <= diffLength; ++i) {
             longHead = longHead.next;
         }
         while (longHead != null && shortHead != null && longHead.val != shortHead.val) {

@@ -19,7 +19,7 @@ public class NumberOfOneInOneToN41 {
             round /= 10;
             count += round * base;
             if (weight == 1) {
-                count += (n % base);
+                count += (n % base) + 1;
             } else if (weight > 1) {
                 count += base;
             }

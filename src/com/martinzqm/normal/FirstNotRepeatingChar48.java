@@ -5,9 +5,9 @@ import java.util.Map;
 
 /**
  * @Author miao
- * @Description: 把只包含质因子2、3和5的数称作丑数（Ugly Number）。
- * 例如6、8都是丑数，但14不是，因为它包含质因子7。
- * 习惯上我们把1当做是第一个丑数。求按从小到大的顺序的第N个丑数。
+ * @Description: 请实现一个函数用来找出字符流中第一个只出现一次的字符。
+ * 例如，当从字符流中只读出前两个字符"go"时，第一个只出现一次的字符是"g"。
+ * 当从该字符流中读出前六个字符“google"时，第一个只出现一次的字符是"l"。
  * @Date 2018/8/31 15:33
  */
 public class FirstNotRepeatingChar48 {

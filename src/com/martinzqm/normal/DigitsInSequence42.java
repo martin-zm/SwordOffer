@@ -58,4 +58,8 @@ public class DigitsInSequence42 {
         }
         return (int) Math.pow(10, digits - 1);
     }
+
+    public static void main(String[] args) {
+        System.out.println(digitAtIndex(1000));
+    }
 }
