@@ -3,6 +3,7 @@ package com.martinzqm.normal;
 /**
  * @Author miao
  * @Description: 统计一个数字在排序数组中出现的次数。
+ * http://www.cnblogs.com/luoxn28/p/5767571.html
  * @Date 2018/8/31 16:48
  */
 public class GetNumberOfK51 {

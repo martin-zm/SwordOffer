@@ -49,7 +49,6 @@ public class CloneComplexLinkedList33 {
             newIndex.next = oldIndex.next;
             newIndex = oldIndex.next;
         }
-        oldIndex = null;
         return result;
     }
 }

@@ -9,7 +9,7 @@ package com.martinzqm.normal;
  * @Date 2018/8/22 7:47
  */
 public class MinNumberInRotateArray9 {
-    public int solution(int[] array) {
+    public static int solution(int[] array) {
         if (array == null || array.length == 0) {
             return 0;
         }
@@ -34,10 +34,9 @@ public class MinNumberInRotateArray9 {
             }
         }
         return array[midIndex];
-
     }
 
-    public int minInOrder(int[] array, int index1, int index2) {
+    public static int minInOrder(int[] array, int index1, int index2) {
         int min = array[index1];
         for (int i = index1 + 1; i <= index2; ++i) {
             if (array[i] < min) {
@@ -46,5 +45,9 @@ public class MinNumberInRotateArray9 {
         }
         return min;
     }
-}
 
+    public static void main(String[] args) {
+        int[] array = {3, 4, 5, 1, 2};
+        System.out.println(solution(array));
+    }
+}

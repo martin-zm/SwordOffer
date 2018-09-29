@@ -23,5 +23,4 @@ public class FindNumInTwoDimentionArray2 {
         }
         return false;
     }
-
 }

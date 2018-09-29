@@ -10,7 +10,7 @@ import java.util.Stack;
  * @Date 2018/8/26 12:28
  */
 public class StackPushPop29 {
-    public boolean IsPopOrder(int [] pushA,int [] popA) {
+    public boolean IsPopOrder(int [] pushA, int [] popA) {
         if (pushA.length == 0 || popA.length == 0) {
             return false;
         }

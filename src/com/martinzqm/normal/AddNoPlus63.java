@@ -8,6 +8,7 @@ package com.martinzqm.normal;
 public class AddNoPlus63 {
     public int add(int num1, int num2) {
         int sum = 0;
+        // 进位不为0
         while (num2 != 0) {
             // 无进位求和
             sum = num1 ^ num2;

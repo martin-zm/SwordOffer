@@ -1,7 +1,5 @@
 package com.martinzqm.normal;
 
-import com.martinzqm.util.Util;
-
 /**
  * @author zhangmiao3
  * @Description:
@@ -33,9 +31,15 @@ public class FindDuplicateNum1 {
                     result[0] = nums[i];
                     return true;
                 }
-                Util.swap(nums[i], nums[nums[i]]);
+                swap(nums, i, nums[i]);
             }
         }
         return false;
+    }
+
+    public void swap(int[] numbers, int i, int j) {
+        int temp = numbers[i];
+        numbers[i] = numbers[j];
+        numbers[j] = temp;
     }
 }

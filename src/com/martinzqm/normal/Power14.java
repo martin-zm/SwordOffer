@@ -41,5 +41,4 @@ public class Power14 {
         }
         return result;
     }
-
 }
